@@ -1,9 +1,18 @@
-console.log('hey u are u there')
-console.log(true)
-console.log(2409686743896823)
-console.log(false)
-console.log("fgvefdf")
-console.log(false)
-console.log("wrtefg",true,false,1325)
-console.warn("this is warning")
-console.error("this is error")
+//primitive data type
+var name="ice cream parlour"
+
+console.log(name)
+let age=21
+console.log(age)
+console.log(typeof age)
+let mam='e'
+console.log(mam)
+let car="unovo"
+console.log(car)
+
+//non primitive data type
+let arr=[1,2,3,4,]
+arr.push("value")
+arr.push(false)
+console.log(arr)
+console.log(typeof arr)
