@@ -1,10 +1,12 @@
-const a=2
-const b=2
-console.log('a==b',a==b)
-console.log('a!=b',a!=b)
-
-
-console.log('false && false',false&&false)
-console.log('false&&true',false&&true)
-console.log('true&&true',true&&true)
-console.log('true&&true',true&&true)
+const x=4
+if (typeof x==='number'){
+    if(x%2===0) {
+    console.log("no. is even")
+}
+else(x%2!===0) {
+    console.log("no. is odd")
+}
+else(x===0) {
+    console.log("no. is zero")
+}
+}
