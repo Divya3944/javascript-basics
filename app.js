@@ -1,2 +1,9 @@
-let name="dappa"
-console.log(name.toUppercase())
+a=4
+b=7
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+
+console.log(a%b)
+console.log(a**b)
